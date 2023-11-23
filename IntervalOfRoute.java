@@ -10,6 +10,6 @@ public class IntervalOfRoute {
             hours = hours +1;
             minute = minute - 60;
         }
-        return hours + ":" + minute;
+        return hours + ":" + String.format("%02d", minute);
     }
 }
